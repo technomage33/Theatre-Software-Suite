@@ -30,6 +30,7 @@ class Menu extends Component {
                 					<ul className="dropdown-menu">
                                         <li><Link to='/director/manage-crew'>Manage Crew</Link></li>
                                         <li><Link to='/director/blocking-decisions'>Blocking Decisions</Link></li>
+                                        <li><Link to='/director/manage-files'>Manage Files</Link></li>
                 					</ul>
                 				</li>
                                 <li className="dropdown">

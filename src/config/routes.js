@@ -14,6 +14,7 @@ import ManagerSchedulePage from '../containers/stageManagerPage/schedulePage';
 import APropertyNotesPage from '../containers/actorPage/propertyNotesPage';
 import ManageCrewPage from '../containers/directorPage/manageCrewPage';
 import BlockingDecisionsPage from '../containers/directorPage/blockingDecisionsPage';
+import ManageFilesPage from '../containers/directorPage/manageFiles';
 
 /* Above, we're importing all the components we made for the different pages. Make sure their filepaths
 are correct. Filepaths are relative to the file you're currently in. Curly braces are used when you're
@@ -41,6 +42,7 @@ class Routes extends Component {
                 <Route path='/actor/lines' component={ActorLinesPage} />
                 <Route path='/director/manage-crew' component={ManageCrewPage} />
                 <Route path='/director/blocking-decisions' component={BlockingDecisionsPage} />
+                <Route path='/director/manage-files' component={ManageFilesPage} />
             </Switch>
         )
     }
