@@ -6,7 +6,7 @@ import SchedulePage from '../containers/schedulePage';
 import StageDirectionsPage from '../containers/stageDirectionsPage';
 import LightsPage from '../containers/stageCrewPage/lightsPage';
 import SoundPage from '../containers/stageCrewPage/soundPage';
-import ScriptPage from '../containers/scriptPage';
+import FilesPage from '../containers/filesPage';
 import ActorBlockingPage from '../containers/actorPage/actorBlockingPage'
 import ActorLinesPage from '../containers/actorPage/actorLinesPage'
 import SMPropertyNotesPage from '../containers/stageManagerPage/propertyNotesPage';
@@ -33,7 +33,7 @@ class Routes extends Component {
                 {/* Below is an example of a sub-route. */}
                 <Route path='/stage-crew/lights' component={LightsPage} />
                 <Route path='/stage-crew/sound' component={SoundPage} />
-                <Route path='/script' component={ScriptPage} />
+                <Route path='/files' component={FilesPage} />
                 <Route path='/stage-manager/property-notes' component={SMPropertyNotesPage} />
                 <Route path='/stage-manager/schedule' component={ManagerSchedulePage} />
                 <Route path='/actor/property-notes' component={APropertyNotesPage} />

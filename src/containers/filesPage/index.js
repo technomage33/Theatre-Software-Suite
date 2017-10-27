@@ -1,15 +1,15 @@
 import React, { Component } from 'react';
 
-class ScriptPage extends Component {
+class FilesPage extends Component {
 
     render() {
         return (
             <div>
-                <h1>Script Page</h1>
+                <h1>Files Page</h1>
             </div>
         );
     }
 
 }
 
-export default ScriptPage;
+export default FilesPage;
